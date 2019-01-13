@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DA4A18C21EB5428006A5A6C /* myDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA4A18B21EB5428006A5A6C /* myDetailVC.swift */; };
 		2DA98C8321EA69A8004D6E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA98C8221EA69A8004D6E85 /* AppDelegate.swift */; };
 		2DA98C8521EA69A8004D6E85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA98C8421EA69A8004D6E85 /* ViewController.swift */; };
 		2DA98C8821EA69A8004D6E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA98C8621EA69A8004D6E85 /* Main.storyboard */; };
 		2DA98C8B21EA69A8004D6E85 /* Seyehat_Kitab_m.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DA98C8921EA69A8004D6E85 /* Seyehat_Kitab_m.xcdatamodeld */; };
 		2DA98C8D21EA69AA004D6E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA98C8C21EA69AA004D6E85 /* Assets.xcassets */; };
 		2DA98C9021EA69AA004D6E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA98C8E21EA69AA004D6E85 /* LaunchScreen.storyboard */; };
+		2DA98C9821EA6E95004D6E85 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA98C9721EA6E95004D6E85 /* detailsVC.swift */; };
+		2DA98C9A21EA798A004D6E85 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA98C9921EA798A004D6E85 /* select.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DA4A18B21EB5428006A5A6C /* myDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDetailVC.swift; sourceTree = "<group>"; };
 		2DA98C7F21EA69A8004D6E85 /* Seyehat Kitabım.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seyehat Kitabım.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA98C8221EA69A8004D6E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DA98C8421EA69A8004D6E85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		2DA98C8C21EA69AA004D6E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DA98C8F21EA69AA004D6E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DA98C9121EA69AA004D6E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA98C9721EA6E95004D6E85 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		2DA98C9921EA798A004D6E85 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		2DA98C8121EA69A8004D6E85 /* Seyehat Kitabım */ = {
 			isa = PBXGroup;
 			children = (
+				2DA98C9921EA798A004D6E85 /* select.png */,
 				2DA98C8221EA69A8004D6E85 /* AppDelegate.swift */,
 				2DA98C8421EA69A8004D6E85 /* ViewController.swift */,
 				2DA98C8621EA69A8004D6E85 /* Main.storyboard */,
@@ -63,6 +70,8 @@
 				2DA98C8E21EA69AA004D6E85 /* LaunchScreen.storyboard */,
 				2DA98C9121EA69AA004D6E85 /* Info.plist */,
 				2DA98C8921EA69A8004D6E85 /* Seyehat_Kitab_m.xcdatamodeld */,
+				2DA98C9721EA6E95004D6E85 /* detailsVC.swift */,
+				2DA4A18B21EB5428006A5A6C /* myDetailVC.swift */,
 			);
 			path = "Seyehat Kitabım";
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DA98C9021EA69AA004D6E85 /* LaunchScreen.storyboard in Resources */,
+				2DA98C9A21EA798A004D6E85 /* select.png in Resources */,
 				2DA98C8D21EA69AA004D6E85 /* Assets.xcassets in Resources */,
 				2DA98C8821EA69A8004D6E85 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DA98C8B21EA69A8004D6E85 /* Seyehat_Kitab_m.xcdatamodeld in Sources */,
+				2DA4A18C21EB5428006A5A6C /* myDetailVC.swift in Sources */,
+				2DA98C9821EA6E95004D6E85 /* detailsVC.swift in Sources */,
 				2DA98C8521EA69A8004D6E85 /* ViewController.swift in Sources */,
 				2DA98C8321EA69A8004D6E85 /* AppDelegate.swift in Sources */,
 			);
