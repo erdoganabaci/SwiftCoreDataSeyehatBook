@@ -39,12 +39,14 @@ class myDetailVC: UIViewController ,UIImagePickerControllerDelegate,UINavigation
        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
         let newArt = NSEntityDescription.insertNewObject(forEntityName: "Paintings", into: context)
-        newArt.setValue(myNameText, forKey: "name")
-        newArt.setValue(myPainterText, forKey: "paint")
+        newArt.setValue(myNameText.text, forKey: "name")
+        newArt.setValue(myPainterText.text, forKey: "paint")
         if let yil = Int(myYearText.text!){
             newArt.setValue(yil, forKey: "year")
         }
+         if(myimageView.image != nil){
         let data = myimageView.image!.jpegData(compressionQuality: 0.5)
+       
         newArt.setValue(data, forKey: "image")
         do {
             try context.save()
@@ -52,6 +54,7 @@ class myDetailVC: UIViewController ,UIImagePickerControllerDelegate,UINavigation
         } catch  {
             print("ERROR")
         }
+      }
     }
 
 }
